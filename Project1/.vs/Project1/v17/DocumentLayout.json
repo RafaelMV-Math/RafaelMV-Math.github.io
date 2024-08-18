@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rafa\\source\\repos\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24AFCBFA-E665-4F9D-8C3F-348CB7B7ECA8}|Project1\\Project1.vcxproj|C:\\Users\\Rafa\\source\\repos\\Project1\\Project1\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{24AFCBFA-E665-4F9D-8C3F-348CB7B7ECA8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AFCBFA-E665-4F9D-8C3F-348CB7B7ECA8}|Project1\\Project1.vcxproj|C:\\Users\\Rafa\\source\\repos\\Project1\\Project1\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{24AFCBFA-E665-4F9D-8C3F-348CB7B7ECA8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AFCBFA-E665-4F9D-8C3F-348CB7B7ECA8}|Project1\\Project1.vcxproj|C:\\Users\\Rafa\\source\\repos\\Project1\\Project1\\RMV.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24AFCBFA-E665-4F9D-8C3F-348CB7B7ECA8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\RMV.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "scripts.js",
+              "DocumentMoniker": "C:\\Users\\Rafa\\source\\repos\\Project1\\Project1\\scripts.js",
+              "RelativeDocumentMoniker": "Project1\\scripts.js",
+              "ToolTip": "C:\\Users\\Rafa\\source\\repos\\Project1\\Project1\\scripts.js",
+              "RelativeToolTip": "Project1\\scripts.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-18T21:27:07.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Rafa\\source\\repos\\Project1\\Project1\\styles.css",
+              "RelativeDocumentMoniker": "Project1\\styles.css",
+              "ToolTip": "C:\\Users\\Rafa\\source\\repos\\Project1\\Project1\\styles.css",
+              "RelativeToolTip": "Project1\\styles.css",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwCQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-18T20:33:47.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RMV.htm",
+              "DocumentMoniker": "C:\\Users\\Rafa\\source\\repos\\Project1\\Project1\\RMV.htm",
+              "RelativeDocumentMoniker": "Project1\\RMV.htm",
+              "ToolTip": "C:\\Users\\Rafa\\source\\repos\\Project1\\Project1\\RMV.htm",
+              "RelativeToolTip": "Project1\\RMV.htm",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-18T20:32:27.436Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
