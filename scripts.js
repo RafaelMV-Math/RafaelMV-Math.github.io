@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const weatherElement = document.getElementById('weather-info');
 
             const iconUrl = `http://openweathermap.org/img/wn/${weatherIcon}@2x.png`;
-            weatherElement.innerHTML = `<img src="${iconUrl}" alt="Weather icon"> ${temp} C, ${weatherDescription}`;
+            weatherElement.innerHTML = `<img src="${iconUrl}" alt="Weather icon"> ${temp} C, ${weatherDescription}.`;
         })
         .catch(error => {
             console.error('Error fetching weather data:', error);
