@@ -24,7 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=es`;
 
     fetch(apiUrl)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Error en la respuesta de la API');
+            }
+            return response.json();
+        })
         .then(data => {
             const temp = data.main.temp;
             const weatherDescription = data.weather[0].description;
@@ -34,6 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => {
             console.error('Error al obtener el clima:', error);
             const weatherElement = document.getElementById('weather-info');
-            weatherElement.textContent = 'No se pudo cargar el clima';
+            weatherElement.textContent = 'Unable to load the weather.';
         });
 });
