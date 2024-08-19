@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const iconUrl = `http://openweathermap.org/img/wn/${weatherIcon}@2x.png`;
 
             // Mostrar la información del clima con el icono
-            weatherElement.innerHTML = `<img src="${iconUrl}" alt="Weather icon"> ${temp} C, ${weatherDescription}`;
+            weatherElement.innerHTML = `<img src="${iconUrl}" alt="Weather icon"> ${temp} C, ${weatherDescription}.`;
         })
         .catch(error => {
             console.error('Error al obtener el clima:', error);
