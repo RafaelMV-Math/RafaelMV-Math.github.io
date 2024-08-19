@@ -96,10 +96,30 @@ body {
     color: #333;
 }
 
-#weather-info {
-    font-size: 18px;
-    color: #333;
+#weather-info img {
+    vertical-align: middle; /* Alinea el icono con el texto */
+    width: 30px; /* Ajusta el tamaño del icono según sea necesario */
+    height: 30px;
+    margin-right: 5px;
 }
+
+.logo-links {
+    margin-top: 10px; /* Espacio entre el clima y los logos */
+}
+
+    .logo-links a {
+        margin-right: 5px; /* Espacio entre las imágenes */
+    }
+
+    .logo-links img {
+        width: 30px; /* Ajusta el tamaño del logo según sea necesario */
+        height: 30px;
+        transition: transform 0.3s;
+    }
+
+        .logo-links img:hover {
+            transform: scale(1.1); /* Efecto de hover para agrandar la imagen ligeramente */
+        }
 
 h1 {
     margin: 0;
