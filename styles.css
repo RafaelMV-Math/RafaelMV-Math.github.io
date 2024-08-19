@@ -5,7 +5,12 @@ body {
     color: #333;
     background-color: #f9f9f9;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    text-align: justify; /* Alinea el texto */
+}
+
+p {
+    margin-bottom: 15px; /* Espacio debajo de cada párrafo */
 }
 
 .header-content {
