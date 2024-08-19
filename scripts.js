@@ -17,3 +17,23 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const apiKey = '9248181116c7db072f161882d1f945a0'; // Reemplaza con tu clave API de OpenWeatherMap
+    const city = 'Barcelona';
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=es`;
+
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            const temp = data.main.temp;
+            const weatherDescription = data.weather[0].description;
+            const weatherElement = document.getElementById('weather-info');
+            weatherElement.textContent = `${temp}°C, ${weatherDescription}`;
+        })
+        .catch(error => {
+            console.error('Error al obtener el clima:', error);
+            const weatherElement = document.getElementById('weather-info');
+            weatherElement.textContent = 'No se pudo cargar el clima';
+        });
+});

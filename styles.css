@@ -78,6 +78,20 @@ body {
     color: #555; /* Color del subtítulo */
 }
 
+#weather {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left;
+}
+
+#weather-info {
+    font-size: 18px;
+    color: #333;
+}
+
 h1 {
     margin: 0;
     font-size: 24px;
